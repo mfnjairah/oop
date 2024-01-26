@@ -19,8 +19,6 @@ puts "Quantity: #{transaction_obj.quantity}"
 puts "Price: #{transaction_obj.price}"
 puts "Total: #{transaction_obj.total}"
 
-
-
 # Abstraction
 
 class Transaction
@@ -49,7 +47,6 @@ transaction_obj = Transaction.new(10, 899, true)
 puts "Total Transaction: #{transaction_obj.total_transaction}"
 
 # Ducktyping
-
 class Payment
   def type(payment)
     payment.type
