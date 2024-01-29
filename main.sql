@@ -31,12 +31,6 @@ WHERE id = 1;
 DELETE FROM students
 WHERE id = 6;
 
--- or
-
-DELETE FROM students
-ORDER BY id DESC
-LIMIT 1;
-
 -- Display the counts of all students
 
 SELECT COUNT(id) FROM students
