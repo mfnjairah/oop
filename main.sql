@@ -36,3 +36,20 @@ WHERE id = 6;
 DELETE FROM students
 ORDER BY id DESC
 LIMIT 1;
+
+-- Display the counts of all students
+
+SELECT COUNT(id) FROM students
+
+
+-- Select all students with location is Manila
+
+SELECT * FROM students WHERE location = 'Manila'
+
+-- Display the average age of all students
+
+SELECT AVG(age) FROM students
+
+
+-- Display all students by age descending order
+SELECT age FROM students ORDER BY age DESC
