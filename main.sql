@@ -11,7 +11,7 @@ CREATE TABLE students (
 
 -- Insert 6 records
 
-INSERT INTO students (first_name, middle_name, last_name, age, location)
+INSERT INTO students (id, first_name, middle_name, last_name, age, location)
 VALUES
     (1, 'Juan', 'Blank', 'Cruz', 18, 'Manila'),
     (2, 'Anne', 'Blank', 'Wall', 20, 'Manila'),
