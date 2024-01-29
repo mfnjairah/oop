@@ -13,12 +13,12 @@ CREATE TABLE students (
 
 INSERT INTO students (id, first_name, middle_name, last_name, age, location)
 VALUES
-    (1, 'Juan', 'Blank', 'Cruz', 18, 'Manila'),
-    (2, 'Anne', 'Blank', 'Wall', 20, 'Manila'),
-    (3, 'Theresa', 'Blank', 'Joseph', 21, 'Manila'),
-    (4, 'Issac', 'Blank', 'Gray', 19, 'Laguna'),
-    (5, 'Zack', 'Blank', 'Matthews', 22, 'Marikina'),
-    (6, 'Finn', 'Blank', 'Lam', 25, 'Manila');
+    (1, 'Juan', NULL, 'Cruz', 18, 'Manila'),
+    (2, 'Anne', NULL, 'Wall', 20, 'Manila'),
+    (3, 'Theresa', NULL, 'Joseph', 21, 'Manila'),
+    (4, 'Issac', NULL, 'Gray', 19, 'Laguna'),
+    (5, 'Zack', NULL, 'Matthews', 22, 'Marikina'),
+    (6, 'Finn', NULL, 'Lam', 25, 'Manila');
 
 -- Update first record
 
