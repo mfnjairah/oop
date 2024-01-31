@@ -17,3 +17,4 @@ is_isogram("regulations") # true
 is_isogram("aba" ) # false
 is_isogram("moOse" ) # false - ignore letter case
 is_isogram(" ") # true 
+is_isogram("  ") # false 
